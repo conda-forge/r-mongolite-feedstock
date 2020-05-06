@@ -59,6 +59,7 @@ about:
   summary: "High-performance MongoDB client based on 'mongo-c-driver' and 'jsonlite'. Includes support for aggregation, indexing, map-reduce, streaming, encryption,\
     \ enterprise authentication, and GridFS. The online user manual provides an overview  of the available methods in the package: <https://jeroen.github.io/mongolite/>."
   license_family: APACHE
+  license_file: LICENSE-2.0.txt
 
 extra:
   recipe-maintainers:
