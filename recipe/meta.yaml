@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mongolite_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mongolite/mongolite_{{ version }}.tar.gz
-  sha256: 555bcac48b97a6bb94df90dc156b3ed3d35be137d25ba598947ff30d65913be1
+  sha256: 0b755e3cebc7b727b1f55e5552623733211b1757164e82b4d27716975a831a17
 
 build:
   merge_build_host: true  # [win]
   skip: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -56,8 +56,7 @@ test:
 about:
   home: https://github.com/jeroen/mongolite/ (devel) https://jeroen.github.io/mongolite/ (user manual) http://mongoc.org/ (upstream)
   license: Apache 2.0
-  summary: "High-performance MongoDB client based on 'mongo-c-driver' and 'jsonlite'. Includes support for aggregation, indexing, map-reduce, streaming, encryption,\
-    \ enterprise authentication, and GridFS. The online user manual provides an overview  of the available methods in the package: <https://jeroen.github.io/mongolite/>."
+  summary: "High-performance MongoDB client based on 'mongo-c-driver' and 'jsonlite'. Includes support for aggregation, indexing, map-reduce, streaming, encryption, enterprise authentication, and GridFS. The online user manual provides an overview  of the available methods in the package: <https://jeroen.github.io/mongolite/>."
   license_family: APACHE
   license_file: LICENSE-2.0.txt
 
