@@ -1,11 +1,11 @@
-About r-mongolite
-=================
+About r-mongolite-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mongolite-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jeroen/mongolite/ (devel) https://jeroen.github.io/mongolite/ (user manual) http://mongoc.org/ (upstream)
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mongolite-feedstock/blob/main/LICENSE.txt)
 
 Summary: High-performance MongoDB client based on 'mongo-c-driver' and 'jsonlite'. Includes support for aggregation, indexing, map-reduce, streaming, encryption, enterprise authentication, and GridFS. The online user manual provides an overview  of the available methods in the package: <https://jeroen.github.io/mongolite/>.
 
