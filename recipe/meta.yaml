@@ -1,4 +1,4 @@
-{% set version = "2.8.0" %}
+{% set version = "2.8.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mongolite_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mongolite/mongolite_{{ version }}.tar.gz
-  sha256: 96ff82ae17f423f2f5895f5fe8327604268100a72014dd33c0b566f9773eb042
+  sha256: ff8c8dfe9882738522f8209ec8e5998bbf66b59c048aa3463ebc4e862a54851c
 
 build:
   merge_build_host: true  # [win]
