@@ -10,10 +10,10 @@ source:
     - {{ cran_mirror }}/src/contrib/mongolite_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mongolite/mongolite_{{ version }}.tar.gz
   sha256: 96ff82ae17f423f2f5895f5fe8327604268100a72014dd33c0b566f9773eb042
+  patches:
+    - patches/0001-fix-PKG_CFLAGS.patch
 
 build:
-  # Checking windows to see if it passes. Uncomment the line if it fails.
-  # skip: true  # [win]
   number: 1
   rpaths:
     - lib/R/lib/
@@ -58,7 +58,6 @@ about:
   home: https://github.com/jeroen/mongolite/ (devel) https://jeroen.github.io/mongolite/ (user manual) http://mongoc.org/ (upstream)
   license: Apache-2.0
   summary: "High-performance MongoDB client based on 'mongo-c-driver' and 'jsonlite'. Includes support for aggregation, indexing, map-reduce, streaming, encryption, enterprise authentication, and GridFS. The online user manual provides an overview  of the available methods in the package: <https://jeroen.github.io/mongolite/>."
-  license_family: APACHE
   license_file:
     - LICENSE-2.0.txt
 
