@@ -1,4 +1,4 @@
-{% set version = "2.8.1" %}
+{% set version = "2.8.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mongolite_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mongolite/mongolite_{{ version }}.tar.gz
-  sha256: ff8c8dfe9882738522f8209ec8e5998bbf66b59c048aa3463ebc4e862a54851c
+  sha256: 499e41645c998e1c52d082783aad3bda9e47413e83eec5f53d13be8767f5cd3a
   patches:
     - patches/0001-fix-PKG_CFLAGS.patch
 
