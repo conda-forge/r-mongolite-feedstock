@@ -26,7 +26,7 @@ requirements:
     - {{ compiler('m2w64_c') }}        # [win]
     - {{ stdlib("c") }}                # [win]
     - {{ posix }}filesystem        # [win]
-    - {{ posix }}sed               # [win]
+    - {{ posix }}sed
     - {{ posix }}grep              # [win]
     - {{ posix }}autoconf
     - {{ posix }}automake          # [not win]
@@ -36,12 +36,16 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - r-jsonlite >=1.4             # [build_platform != target_platform]
+    - r-mime                       # [build_platform != target_platform]
+    - r-openssl >=1.0              # [build_platform != target_platform]
   host:
     - r-base
     - r-jsonlite >=1.4
     - r-mime
     - r-openssl >=1.0
     - cyrus-sasl
+    - zlib
   run:
     - r-base
     - r-jsonlite >=1.4
