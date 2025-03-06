@@ -7,7 +7,7 @@ Home: https://jeroen.r-universe.dev/mongolite
 
 Package license: Apache-2.0
 
-Summary: High-performance MongoDB client based on 'mongo-c-driver' and 'jsonlite'. Includes support for aggregation, indexing, map-reduce, streaming, encryption, enterprise authentication, and GridFS. The online user manual provides an overview  of the available methods in the package: <https://jeroen.github.io/mongolite/>.
+Summary: High-performance MongoDB client based on 'mongo-c-driver' and 'jsonlite'. Includes support for aggregation, indexing, map-reduce, streaming, encryption, enterprise authentication, and GridFS. The online user manual provides an overview of the available methods in the package: <https://jeroen.github.io/mongolite/>.
 
 Development: https://github.com/jeroen/mongolite/
 
