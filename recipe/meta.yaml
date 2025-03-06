@@ -63,8 +63,7 @@ about:
   license: Apache-2.0
   summary: "High-performance MongoDB client based on 'mongo-c-driver' and 'jsonlite'. Includes
     support for aggregation, indexing, map-reduce, streaming, encryption, enterprise
-    authentication, and GridFS. The online user manual provides an overview of the available
-    methods in the package: <https://jeroen.github.io/mongolite/>."
+    authentication, and GridFS."
   license_file:
     - LICENSE-2.0.txt
 
