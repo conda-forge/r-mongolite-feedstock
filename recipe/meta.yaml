@@ -44,6 +44,7 @@ requirements:
     - r-mime
     - r-openssl >=1.0
     - cyrus-sasl
+    - zlib
   run:
     - r-base
     - r-jsonlite >=1.4
