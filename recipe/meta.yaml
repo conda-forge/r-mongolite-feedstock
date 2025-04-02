@@ -1,4 +1,4 @@
-{% set version = "3.1.2" %}
+{% set version = "4.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mongolite_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mongolite/mongolite_{{ version }}.tar.gz
-  sha256: f9129c00cc4c2f3a2679a64264637f880918c2035d4180a15c144bd600c26bdd
+  sha256: 09808c1c68ada79b75dc22e617533611ac46f602a8e2194819600ef0d07d2892
 
 build:
   number: 0
